@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Pravalika Computer Science and Engineering">
+    <meta name="decsription" content="This is profile page of Jogipeta pravalika. A Java Full Stack Developer">
+    <meta name="author" content="Sai">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/profile">
+    <meta name="robots" content="index, follow">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>Jogipeta Pravalika</h1>
+    </header>
+    <main>
+        <!-- Pesonal Information -->
+         <section>
+            <h2>Pesonal Information</h2>
+            <img src="./assets/images/Snapchat-1295569870.jpg">
+            <p><strong>Name: </strong>Jogipeta pravalika</p>
+            <p><strong>Branch: </strong>B.E. Compueter Science and Engineering</p>
+            <p><strong>College: </strong>MallaReddy University</p>
+            <p><strong>Year: </strong>Third Year</p>
+         </section>
+
+         <!-- Academic Parformance -->
+         <section>
+            <h2>Academic Performance</h2>
+            <table>
+                <tr>
+                    <thead>
+                        <th>Semester</th>
+                        <th>Subjects</th>
+                        <th>SGPA</th>
+                        </tr>
+                    </thead>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>Maths, Phics, C-programming</td>
+                        <td>DBMS, </td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>DSA, OOP, Digital Logic</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>1st</td>
+                        <td>DBMS, Java, COA</td>
+                        <td>8.7</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+         <!-- Technical Skills -->
+         <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Operating System: </strong>Window & Unix</li>
+                <li><strong>Language: </strong>C, C++, Java, Python </li>
+                <li><strong>Front end: </strong>HTML, CSS, Bootstrap</li>
+                <li><strong>Front end Framework: </strong>Angualar & React</li>
+                <li><strong>Server Framework: </strong>Spring</li>
+                <li><strong>DBMS: </strong>Oracle, MYSQL, MangoDB</li>
+            </ul>
+         </section>
+         <!-- hobbies & interest -->
+          <section>
+            <h2>Hobbies & Interests</h2>
+            <ol>
+                <li>Coding Challenges(Leetcode, Hacker Rank)</li>
+                <li>UI/UX Design</li>
+                <li>Watching Tech YouTube Channels</li>
+                <li>Football & Photography</li>
+            </ol>
+          </section>
+          <!-- Contact Me -->
+          <section>
+            <h2>Contact Me</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email"id="email">
+
+                </div>
+                <div class="form-group">
+                    <label for="Callbackdate">When to call back:</label><br>
+                    <input type="datetime-local"name="callbackdate"id="callback">
+                </div>
+                <div class="form-group">
+                    <label for="contact number">Contact Number:</label><br>
+                    <input type="text"name="contactnumber"id="contactnumber">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label><br>
+                    <textarea name="description"id="description"rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="linkdIn"><strong>Linkdin-Profile url:</strong></label><br>
+                    <input type="url"name="linkdIn"id="linkdIn">
+                </div>
+                <div class="form-group">
+                    <input type="submit"value="submit">
+                </div>
+
+            </form>
+          </section>
+    </main>
 </body>
 </html>
